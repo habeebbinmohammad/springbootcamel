@@ -12,7 +12,7 @@ public class SimpleTimer extends RouteBuilder {
 
         from("timer:simpleFootimer?period=2000")
                 .routeId("mysimplerouteId")
-                .setBodyHelloworld")
+                .setBody( constant("Helloworld"))
                 .log( LoggingLevel.INFO,"${body");
     }
 }
