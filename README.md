@@ -1,3 +1,0 @@
-# springbootcamel
-
-sample changes
