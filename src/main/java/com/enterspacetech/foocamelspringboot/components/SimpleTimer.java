@@ -14,5 +14,7 @@ public class SimpleTimer extends RouteBuilder {
                 .routeId("mysimplerouteId")
                 .setBody( constant("Helloworld"))
                 .log( LoggingLevel.INFO,"${body");
+
+        //sample demo
     }
 }
