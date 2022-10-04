@@ -10,10 +10,10 @@ public class SimpleTimer extends RouteBuilder {
     public void configure() throws Exception {
 
 
-        from("timer:simpleFootimer?period=2000")
-                .routeId("mysimplerouteId")
-                .setBody( constant("Helloworld"))
-                .log( LoggingLevel.INFO,"${body");
+//        from("timer:simpleFootimer?period=2000")
+//                .routeId("mysimplerouteId")
+//                .setBody( constant("Helloworld"))
+//                .log( LoggingLevel.INFO,"${body}");
 
         //sample demo
     }
